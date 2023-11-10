@@ -71,5 +71,16 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(movement * speed * Time.deltaTime);
         controller.Move(velocity * Time.deltaTime);
+
+        if (PauseMenu.GameIsPaused)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 }
