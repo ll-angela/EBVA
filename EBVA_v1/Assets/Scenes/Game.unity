@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   showCrosshairIn3rdPerson: 0
   drawPrimitiveUI: 0
   crosshairSprite: {fileID: 0}
-  cameraPerspective: 1
+  cameraPerspective: 0
   automaticallySwitchPerspective: 0
   perspectiveSwitchingKey_L: 0
   mouseInputInversion: 0
@@ -3462,7 +3462,7 @@ GameObject:
   - component: {fileID: 4011650200680102111}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
